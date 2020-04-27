@@ -1,0 +1,16 @@
+In our alpha beta algorithm implementation:
+
+First we create first node which is a dictionary. The structure of our node is as follows;
+node = {'id': node_id, 		# id is a uuid to make this node unique
+	'type': 'MIN', 		# type shows the node type (MAX,MIN,LEAF) this property is used in visualisation function
+	'children': [], 	# this property includes child nodes as a list
+	'searched': False, 	# shows this node is searched or not. It is needed for visualisation 
+	'value':None,		# indicates evaluated va 
+	'parent_type':'MAX', 
+	'board': game.board, 
+	'name': node_id[-3:]}
+    
+
+inside our alphaBeta function we are looking for children if there is not we are creating children. When the depth reaches 0, 
+it returns node value which is calculated by evaluation function. There are two evaluation function 1. dummy, 2. dijkstra 
+Creating children as the depth req provides us just a window to look into state space tree.   

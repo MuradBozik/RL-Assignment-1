@@ -1,0 +1,7 @@
+------- Result of experiment -------
+Number of experiment: 100
+Win count of Red: 31
+Win count of Blue: 69
+Rating of player 1 (RED): trueskill.Rating(mu=23.134, sigma=0.913)
+Rating of player 2 (BLUE): trueskill.Rating(mu=26.866, sigma=0.913)
+Total time: 475.88248085975647
